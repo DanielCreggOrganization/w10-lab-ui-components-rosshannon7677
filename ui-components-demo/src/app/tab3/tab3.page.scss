@@ -1,0 +1,14 @@
+.custom-toast {
+  --background: rgba(0, 0, 0, 0.7);
+  --box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  --color: white;
+  
+  &::part(message) {
+    font-weight: bold;
+  }
+  
+  &::part(button) {
+    color: var(--ion-color-success);
+    font-weight: bold;
+  }
+}
